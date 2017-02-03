@@ -1,14 +1,28 @@
+body {
+	text-align: center;
+}
+
 #clock {
 }
 
 #clock img {
+	position: absolute;
+	z-index: -2;
 }
 
 #hour {
+	transform: rotate(90deg);
+	position: absolute;
+	z-index: -1;
 }
 
 #minute {
+	transform: rotate(90deg);
+	position: absolute;
+	z-index: 0;
 }
 
 #second {
+	position: absolute;
+	z-index: 2;
 }
